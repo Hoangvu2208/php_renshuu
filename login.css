@@ -1,0 +1,89 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.login{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+.bg-img {
+    position: absolute;
+    height: 100vh;
+    width: calc(50% - 18rem);
+    top: 0;
+    right: 0;
+}
+
+.form-login{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    background-color: #fff;
+    border:1px solid grey;
+    border-radius: 5px;
+    
+}
+form{
+    min-width: 50rem;
+}
+.form-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.des{
+    margin: 30px;
+}
+label{
+    margin: 10px;
+    width: 100%;
+}
+input[type=password], input[type=email]{
+    width: 70%;
+    height: 35px;
+    margin: 10px;
+}
+button{
+    background-color: #173c80;
+    width: 70%;
+    text-align: center;
+    padding: 0 20px;
+    margin:10px 10px 30px 10px;
+    height: 35px;
+    color: white;
+}
+.form-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 10px;
+
+}
+a:hover{
+    color: #173c80;
+}
